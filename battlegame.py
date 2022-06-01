@@ -1,7 +1,7 @@
 """
 Nucamp
 Week 1 workshop Assignment: battlegame.py
-Student: Jin Jessica Yang
+Program Creator: Jessica Yang
 """
 
 wizard = "Wizard"
@@ -98,10 +98,3 @@ while True:
         print("Unknown Character")
         print(multiline_str)
         character = input("Choose your character: ")
-
-
-
-
-
-
-
