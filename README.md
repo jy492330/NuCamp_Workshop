@@ -2,7 +2,7 @@
 
 Week 1 assignment description:  a fantasy battle game
 
-Week 2 assignment description:  xxxxx
+Week 2 assignment description:  
 
 Week 3 assignment description:
 
