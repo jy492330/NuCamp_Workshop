@@ -2,7 +2,7 @@
 
 Week 1 assignment description:  a fantasy battle game
 
-Week 2 assignment description:  
+Week 2 assignment description:  automated teller machine
 
 Week 3 assignment description:
 
