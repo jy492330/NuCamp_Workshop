@@ -1,4 +1,8 @@
-# ATM application
+"""
+Nucamp
+Week 2 workshop Assignment: ATM application
+Creator: Jin Jessica Yang
+"""
 
 from banking_pkg import account
 
@@ -17,7 +21,7 @@ def atm_menu(name):
 
 def register():
     print("          === Automated Teller Machine ===          ")
-    while True:      # Input-Validation Loop: Variation 1
+    while True:      
         name = input("Enter name to register: ")
         if name_is_invalid(name):
             print("Max name length is 10 characters and min is 1 character.")
@@ -25,8 +29,8 @@ def register():
         else:
             break
 
-    pin = input("Enter PIN: ")  # Priming Read
-    while pin_is_invalid(pin):  # Input-Validation Loop: Variation 2 (Better Version)
+    pin = input("Enter PIN: ")  
+    while pin_is_invalid(pin):  
         print("PIN must contain 4 numbers")
         pin = input("Enter PIN: ")
 
@@ -35,16 +39,14 @@ def register():
     login_validate(name, pin, balance)
 
 
-# Bonus Task 1
 def name_is_invalid(user_name):
-    if len(user_name) < 1 or len(user_name) > 10:  # must use OR not AND
+    if len(user_name) < 1 or len(user_name) > 10:  
         return True
     if not user_name.isalpha():
         return True
     return False   # don't use else statement and then return False.
 
 
-# Bonus Task 2
 def pin_is_invalid(user_pin):
     if not user_pin.isdigit():
         return True
