@@ -1,6 +1,6 @@
 # Weekly Workshop Assignments
 
-Week 1 assignment description:    a fantasy battle game
+Week 1 assignment description:    fantasy battle game
 
 Week 2 assignment description:    automated teller machine
 
